@@ -1,39 +1,261 @@
-# 💫 About Me:
-👋 I'm Tanisha Singh from IIII BHAGALPUR(2022-26).<br>🔭 I'm diving deep into full-stack development, leveraging my React, Node.js, and Express expertise to build robust and interactive web applications.<br>👯 I’m looking to collaborate on Open Source Community.<br>💬 Beyond individual projects, I'm passionate about Artificial Intelligence and Machine Learning 💡.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tanisha Singh's Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqk1w27TLihaJzM7zG+Ch9bg+07+y7lQ1ulW8K/BQPq+VyiFpz8/5GbfM1QaQxZH9mH+9cU7H2o=#" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: #333;
+            overflow-x: hidden;
+        }
 
+        .container {
+            max-width: 1000px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+            text-align: center;
+        }
 
-## 🌐 Socials:
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/tanishasingh4785) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/TANISHASINGH) 
+        h1 {
+            font-size: 3em;
+            color: #333;
+            margin-bottom: 10px;
+        }
 
-# 💻 Tech Stack:
-![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![GithubPages](https://img.shields.io/badge/github%20pages-121013?style=for-the-badge&logo=github&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase) ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white) ![Angular.js](https://img.shields.io/badge/angular.js-%23E23237.svg?style=for-the-badge&logo=angularjs&logoColor=white) ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white) ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![Adobe](https://img.shields.io/badge/adobe-%23FF0000.svg?style=for-the-badge&logo=adobe&logoColor=white) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=TANISHA-singh-7&theme=highcontrast&hide_border=false&include_all_commits=true&count_private=true)<br/>
-![](https://github-readme-streak-stats.herokuapp.com/?user=TANISHA-singh-7&theme=highcontrast&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=TANISHA-singh-7&theme=highcontrast&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+        .about-me {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
 
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=TANISHA-singh-7&theme=radical&no-frame=false&no-bg=false&margin-w=4)
+        .about-me img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-right: 20px;
+            border: 5px solid #333;
+        }
 
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
+        .about-me p {
+            text-align: left;
+            line-height: 1.6;
+        }
 
-### 🔝 Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=TANISHA-singh-7&limit=5&theme=neon&combine_all_yearly_contributions=true)
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
 
----
-[![](https://visitcount.itsvg.in/api?id=TANISHA-singh-7&icon=8&color=5)](https://visitcount.itsvg.in)
+        .skill-badge {
+            margin: 5px;
+            padding: 10px;
+            background-color: #eee;
+            border-radius: 5px;
+            font-weight: bold;
+            text-align: center;
+            transition: transform 0.3s ease, background-color 0.3s ease;
+        }
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+        .skill-badge:hover {
+            transform: scale(1.1);
+            background-color: #ddd;
+        }
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><h3 align="center">Statistics</h3>
-<div align="center">
-<a href="https://github.com/TANISHA-singh-7">
-<img align="center" src="http://github-profile-summary-cards.vercel.app/api/cards/stats?username=TANISHA-singh-7&theme=2077" height="180em" />
-<img align="center" src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=TANISHA-singh-7&theme=2077" height="180em" />
-<img align="center" src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=TANISHA-singh-7&theme=2077" height="180em" />
-<img align="center" src="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=TANISHA-singh-7&theme=2077" height="180em" />
-<img align="center" src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=TANISHA-singh-7&theme=2077" height="180em" />
-</div>
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><h2 align="left">⚡Activity Graph:</h2>
-<img align="center" src="https://github-readme-activity-graph.vercel.app/graph?username=TANISHA-singh-7&theme=react-dark"/>
+        .socials {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        .social-link {
+            margin: 0 10px;
+            font-size: 24px;
+            color: #333;
+            transition: color 0.3s ease;
+        }
+
+        .social-link:hover {
+            color: #5cb85c;
+        }
+
+        .stats-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        .stats-card {
+            margin: 10px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 300px;
+            transition: transform 0.3s ease;
+        }
+
+        .stats-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .stats-card h3 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .stats-card img {
+            width: 100%;
+            max-width: 300px;
+        }
+
+        .quote-container {
+            text-align: center;
+            margin-bottom: 20px;
+            padding: 20px;
+            background-color: #eee;
+            border-radius: 5px;
+        }
+
+        .quote-container p {
+            font-style: italic;
+            color: #555;
+        }
+
+        .github-stats {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        .github-stats img {
+            margin: 0 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #eee;
+        }
+
+        footer p {
+            color: #333;
+        }
+
+        /* Activity Graph Styling */
+        .activity-graph {
+            margin-bottom: 20px;
+            width: 100%;
+        }
+
+        .activity-graph img {
+            width: 100%;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .stats-card {
+                width: 100%;
+                margin-bottom: 15px;
+            }
+
+            .github-stats img {
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Tanisha Singh</h1>
+        <div class="about-me">
+            <img src="https://avatars.githubusercontent.com/u/73097560?v=4" alt="Tanisha Singh">
+            <p>👋 I'm Tanisha Singh from IIII BHAGALPUR (2022-26).<br>🔭 I'm diving deep into full-stack development, leveraging my React, Node.js, and Express expertise to build robust and interactive web applications.<br>👯 I'm looking to collaborate on Open Source Community.<br>💬 Beyond individual projects, I'm passionate about Artificial Intelligence and Machine Learning 💡.</p>
+        </div>
+
+        <h2>🌐 Socials:</h2>
+        <div class="socials">
+            <a href="https://instagram.com/tanishasingh4785" class="social-link"><i class="fab fa-instagram"></i></a>
+            <a href="https://linkedin.com/in/TANISHASINGH" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+
+        <h2>💻 Tech Stack:</h2>
+        <div class="skills">
+            <div class="skill-badge">C++</div>
+            <div class="skill-badge">C</div>
+            <div class="skill-badge">HTML5</div>
+            <div class="skill-badge">GitHub Pages</div>
+            <div class="skill-badge">Firebase</div>
+            <div class="skill-badge">Netlify</div>
+            <div class="skill-badge">Vercel</div>
+            <div class="skill-badge">Angular.js</div>
+            <div class="skill-badge">Bootstrap</div>
+            <div class="skill-badge">Django</div>
+            <div class="skill-badge">NodeJS</div>
+            <div class="skill-badge">MySQL</div>
+            <div class="skill-badge">MongoDB</div>
+            <div class="skill-badge">Adobe</div>
+            <div class="skill-badge">Figma</div>
+            <div class="skill-badge">Canva</div>
+            <div class="skill-badge">NumPy</div>
+            <div class="skill-badge">Pandas</div>
+            <div class="skill-badge">PyTorch</div>
+            <div class="skill-badge">Matplotlib</div>
+            <div class="skill-badge">TensorFlow</div>
+        </div>
+
+        <div class="stats-container">
+            <div class="stats-card">
+                <h3>GitHub Stats</h3>
+                <img src="https://github-readme-stats.vercel.app/api?username=TANISHA-singh-7&theme=highcontrast&hide_border=false&include_all_commits=true&count_private=true" alt="GitHub Stats">
+            </div>
+            <div class="stats-card">
+                <h3>GitHub Streak</h3>
+                <img src="https://github-readme-streak-stats.herokuapp.com/?user=TANISHA-singh-7&theme=highcontrast&hide_border=false" alt="GitHub Streak">
+            </div>
+            <div class="stats-card">
+                <h3>Top Languages</h3>
+                <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=TANISHA-singh-7&theme=highcontrast&hide_border=false&include_all_commits=true&count_private=true&layout=compact" alt="Top Languages">
+            </div>
+        </div>
+
+        <div class="github-stats">
+            <img src="https://github-profile-trophy.vercel.app/?username=TANISHA-singh-7&theme=radical&no-frame=false&no-bg=false&margin-w=4" alt="GitHub Trophies">
+        </div>
+
+        <div class="quote-container">
+            <p>
+                <iframe src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" style="width: 100%; height: 30px; border: 0;"></iframe>
+            </p>
+        </div>
+
+        <div class="github-stats">
+            <img src="https://github-contributor-stats.vercel.app/api?username=TANISHA-singh-7&limit=5&theme=neon&combine_all_yearly_contributions=true" alt="Top Contributed Repos">
+        </div>
+
+        <div class="activity-graph">
+            <img src="https://github-readme-activity-graph.vercel.app/graph?username=TANISHA-singh-7&theme=react-dark" alt="GitHub Activity Graph">
+        </div>
+
+        <footer>
+            <p>© 2023 Tanisha Singh. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>

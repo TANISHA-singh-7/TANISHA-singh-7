@@ -37,3 +37,16 @@
 </div>
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><h2 align="left">⚡Activity Graph:</h2>
 <img align="center" src="https://github-readme-activity-graph.vercel.app/graph?username=TANISHA-singh-7&theme=react-dark"/>
+
+
+# Badge Links
+
+Badge: https://github.com/girlscript/gssoc-website-new/tree/main/public/badges
+
+Each badge link looks like `<img src="url" width="" height="" />`
+
+To customize them, simply copy one from the links below. And adjust the values in `width` and `height` as per your choice. And, make sure to use `px` or `rem`.
+
+## How do I get all in a single line...?
+To increase spacing between, each images update `gap: 10px` to a higher value such as `gap: 20px`.
+To have all of them center aligned, use this

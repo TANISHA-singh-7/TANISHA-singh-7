@@ -1,6 +1,9 @@
 # 💫 About Me:
 👋 I'm Tanisha Singh from IIII BHAGALPUR(2022-26).<br>🔭 I'm diving deep into full-stack development, leveraging my React, Node.js, and Express expertise to build robust and interactive web applications.<br>👯 I’m looking to collaborate on Open Source Community.<br>💬 Beyond individual projects, I'm passionate about Artificial Intelligence and Machine Learning 💡.
 
+<img src="https://raw.githubusercontent.com/TANISHA-singh-7/TANISHA-singh-7/output/snake.svg" alt="Snake animation" />
+
+
 ## 🌐 Socials:
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/tanishasingh4785) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/TANISHASINGH) 
 
